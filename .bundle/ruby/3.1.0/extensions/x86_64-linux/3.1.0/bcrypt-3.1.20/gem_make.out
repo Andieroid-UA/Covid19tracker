@@ -1,0 +1,22 @@
+current directory: /home/runner/Ruby-Gems-and-CLI-Part-1/.bundle/ruby/3.1.0/gems/bcrypt-3.1.20/ext/mri
+/nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/bin/ruby -I /nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/runner/Ruby-Gems-and-CLI-Part-1/.bundle/ruby/3.1.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240117-3924-mw2ndh sitelibdir\=./.gem.20240117-3924-mw2ndh clean
+
+current directory: /home/runner/Ruby-Gems-and-CLI-Part-1/.bundle/ruby/3.1.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240117-3924-mw2ndh sitelibdir\=./.gem.20240117-3924-mw2ndh
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+wrapper.c:182:60: warning: ‘struct crypt_data’ declared inside parameter list will not be visible outside of this definition or declaration
+  182 | char *crypt_r(const char *key, const char *setting, struct crypt_data *data)
+      |                                                            ^~~~~~~~~~
+linking shared-object bcrypt_ext.so
+
+current directory: /home/runner/Ruby-Gems-and-CLI-Part-1/.bundle/ruby/3.1.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240117-3924-mw2ndh sitelibdir\=./.gem.20240117-3924-mw2ndh install
+install -c -p -m 755 bcrypt_ext.so ./.gem.20240117-3924-mw2ndh

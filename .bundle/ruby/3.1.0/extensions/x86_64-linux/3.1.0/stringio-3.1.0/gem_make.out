@@ -1,0 +1,15 @@
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+/nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/bin/ruby -I /nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-q2mxri sitelibdir\=./.gem.20240115-15779-q2mxri clean
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-q2mxri sitelibdir\=./.gem.20240115-15779-q2mxri
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-q2mxri sitelibdir\=./.gem.20240115-15779-q2mxri install
+install -c -p -m 755 stringio.so ./.gem.20240115-15779-q2mxri

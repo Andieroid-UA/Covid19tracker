@@ -1,0 +1,15 @@
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/bin/ruby -I /nix/store/zy37gk8w7qvzxcpvl74d2zh1zvfsixj0-ruby-3.1.2/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-7wlrjh sitelibdir\=./.gem.20240115-15779-7wlrjh clean
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-7wlrjh sitelibdir\=./.gem.20240115-15779-7wlrjh
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/runner/CLI-Homework-Test/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240115-15779-7wlrjh sitelibdir\=./.gem.20240115-15779-7wlrjh install
+install -c -p -m 755 cparse.so ./.gem.20240115-15779-7wlrjh/racc
